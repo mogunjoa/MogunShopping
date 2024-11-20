@@ -55,6 +55,11 @@ dependencies {
     kapt(libs.hilt.compiler)
 
     implementation(libs.coil)
+
+    implementation(libs.kotlinx.coroutines.android)
+    implementation(libs.okhttp)
+    implementation(libs.retrofit)
+    implementation(libs.converter.gson)
 }
 
 kapt {
