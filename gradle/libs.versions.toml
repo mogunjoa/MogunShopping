@@ -2,6 +2,7 @@
 activityKtx = "1.9.3"
 agp = "8.7.2"
 appcompat = "1.7.0"
+coil = "2.4.0"
 hiltAndroid = "2.44.2"
 hiltCompiler = "2.44.2"
 kotlin = "2.0.0"
@@ -16,6 +17,7 @@ material = "1.12.0"
 androidx-activity-ktx = { module = "androidx.activity:activity-ktx", version.ref = "activityKtx" }
 androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+coil = { module = "io.coil-kt:coil", version.ref = "coil" }
 hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hiltCompiler" }
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hiltAndroid" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }

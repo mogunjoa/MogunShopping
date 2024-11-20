@@ -53,6 +53,8 @@ dependencies {
     implementation(libs.androidx.activity.ktx)
     implementation(libs.hilt.android)
     kapt(libs.hilt.compiler)
+
+    implementation(libs.coil)
 }
 
 kapt {
