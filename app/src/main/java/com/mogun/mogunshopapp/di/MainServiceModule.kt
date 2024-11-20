@@ -1,6 +1,6 @@
 package com.mogun.mogunshopapp.di
 
-import com.mogun.mogunshopapp.MainService
+import com.mogun.mogunshopapp.remote.MainService
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

@@ -1,4 +1,4 @@
-package com.mogun.mogunshopapp
+package com.mogun.mogunshopapp.remote
 
 import com.mogun.mogunshopapp.model.NetworkResponse
 import retrofit2.http.GET

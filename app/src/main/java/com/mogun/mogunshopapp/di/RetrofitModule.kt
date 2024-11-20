@@ -1,6 +1,8 @@
 package com.mogun.mogunshopapp.di
 
 import com.google.gson.GsonBuilder
+import com.mogun.mogunshopapp.model.ListItem
+import com.mogun.mogunshopapp.remote.ListItemDeserializer
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -19,7 +21,9 @@ object RetrofitModule {
     @Singleton
     fun providesConverterFactory(): GsonConverterFactory {
         return GsonConverterFactory.create(
-            GsonBuilder().create()
+            GsonBuilder()
+                .registerTypeAdapter(ListItem::class.java, ListItemDeserializer())
+                .create()
         )
     }
 
